@@ -10,7 +10,7 @@ app.include_router(api_router_text)
 
 @app.get("/")
 async def root():
-    return {'status': True}
+    return {'status': 'True'}
 
 
 if __name__ == '__main__':
