@@ -10,7 +10,6 @@ app.include_router(api_router_text)
 
 @app.get("/")
 async def root():
-    # return {"message_start": "Hello, World"}
     return {'status': True}
 
 
